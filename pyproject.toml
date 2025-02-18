@@ -1,12 +1,12 @@
 [project]
-name = "new_gateway"
+name = "common"
 version = "0.1.0"
-description = "orbcomm_gateway"
+description = "common"
 readme = "README.md"
 authors = [{name = "Aaron Porter", email = "aaron.porter12@yahoo.com"}]
 license = {text = "MIT"}
 requires-python = ">=3.11.6"
-keywords = ["gateway", "fastapi", "redis", "sqlalchemy"]
+keywords = ["common", "fastapi", "redis", "sqlalchemy"]
 
 dependencies = [
     "fastapi>=0.100.0",
