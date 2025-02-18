@@ -61,8 +61,8 @@ Documentation = "https://github.com/aaronporter12/new_gateway/wiki"
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry]  # Retained for settings that don't belong in [project]
-packages = [{ include = "common", from = "src" }]
+[tool.poetry.packages]  # Retained for settings that don't belong in [project]
+include = [{ include = "common", from = "src" }]
 
 
 
